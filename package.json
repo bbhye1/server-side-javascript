@@ -2,7 +2,7 @@
   "name": "server-side-javascript",
   "version": "1.0.0",
   "description": "server side javacript tutorials",
-  "main": "hello.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bbhye1/server-side-javascript#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "underscore": "^1.11.0"
   }
 }
