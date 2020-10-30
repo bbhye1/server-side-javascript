@@ -1,0 +1,22 @@
+{
+  "name": "server-side-javascript",
+  "version": "1.0.0",
+  "description": "server side javacript tutorials",
+  "main": "hello.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbhye1/server-side-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbhye1/server-side-javascript/issues"
+  },
+  "homepage": "https://github.com/bbhye1/server-side-javascript#readme",
+  "dependencies": {
+    "underscore": "^1.11.0"
+  }
+}
