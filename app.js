@@ -2,7 +2,15 @@ const express = require('express');
 const app = express();
 const port = 3001; 
 
+app.locals.pretty = true;
+app.set('view engine', 'pug');
+app.set('views', './views'); //생략가능
+
 app.use(express.static('public')); // 정적인 파일이 위치할 디렉토리를 지정할 이름 지정
+
+app.get('/template', async(req, res) => {
+  res.render('temp',{time: new Date()});
+});
 
 app.get('/', async(req, res) => {
   const response = await res.send('You are in Home');

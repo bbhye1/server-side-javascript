@@ -18,6 +18,8 @@
   "homepage": "https://github.com/bbhye1/server-side-javascript#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "pug": "^3.0.0",
     "underscore": "^1.11.0"
   }
 }
